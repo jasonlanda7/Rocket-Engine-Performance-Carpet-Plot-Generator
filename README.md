@@ -62,7 +62,7 @@ To run the Combustion Chamber Carpet Plot Generator:
 5. Select your Excel data file when the file dialog appears (Excel format sample file "ExcelTemplate" provided in main repository page).
    Below is an example of the excel file template requested by the generator:
 
-   ![Sample Excel Template](carpet_plot_data_table.png)
+   ![Sample Excel Template](CarpetPlotData.png)
    
 7. The program will:
    - Read the performance data
