@@ -1,4 +1,4 @@
-# 🔥 Combustion Chamber Carpet Plot Generator (MATLAB)
+# 🔥 Combustion Chamber Carpet Plot Generator   (MATLAB)
 
 ### Author: Jason Da Silva  
 **Credits:** Developed as part of the Propulsion Analysis Toolkit (2025)
@@ -42,7 +42,7 @@ The program reads performance data from a structured **Excel file** containing I
 To run the Combustion Chamber Carpet Plot Generator:
 
 1. **Ensure the following file is in your MATLAB working directory:**
-   - **`generateCarpetPlot.m`**
+   - **`generateCarpetPlotV1.m`**
 
 2. **Open MATLAB**, and in the **Current Folder** panel, navigate to the script directory.  
    Alternatively, set the path manually using the MATLAB toolbar.
@@ -50,3 +50,27 @@ To run the Combustion Chamber Carpet Plot Generator:
 3. In the **Command Window**, run:
    ```matlab
    >> generateCarpetPlot
+4. When prompted, enter the desired input ranges:
+   ```matlab
+   === Combustion Chamber Carpet Plot Generator ===
+   Enter minimum O/F ratio: (input here)
+   Enter maximum O/F ratio: (input here)
+   Enter O/F increment: (input here)
+   Enter minimum chamber pressure (psi): (input here)
+   Enter maximum chamber pressure (psi): (input here)
+   Enter Pc increment (psi): (input here)
+5. Select your Excel data file when the file dialog appears (Excel format sample file "ExcelTemplate" provided in main repository page).
+   Below is an example of the excel file template requested by the generator:
+
+![Example Bell Nozzle Plot](NozzleContourSample.png)
+   
+7. The program will:
+
+   Read the performance data
+
+   Detect Isp and Tc columns automatically
+
+   Plot Isp vs Tc curves for all chamber pressures
+
+   Connect points of equal O/F to form the carpet pattern
+8. 
