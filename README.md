@@ -49,7 +49,7 @@ To run the Combustion Chamber Carpet Plot Generator:
 
 3. In the **Command Window**, run:
    ```matlab
-   >> generateCarpetPlot
+   >> generateCarpetPlotV1
 4. When prompted, enter the desired input ranges:
    ```matlab
    === Combustion Chamber Carpet Plot Generator ===
